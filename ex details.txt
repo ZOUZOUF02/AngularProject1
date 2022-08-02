@@ -1,0 +1,12 @@
+*. Create An API that reads data (car info) from Excel
+   *. Name
+   *. Price 
+   *. Image (URL) (ex: Pixabay)
+*. this API has the following methods:
+    *. GetCars (GET)
+    *. AddCar (POST)
+*. Create Angular App that reads / calls "GetCars" to 
+   display them in Angular App (including the image)
+
+*. In Angular App, create a component called AddCar that
+   calls "Create_Car" API to create a new car in excel file

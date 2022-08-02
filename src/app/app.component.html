@@ -1,0 +1,5 @@
+<div class="background">
+    <app-get-cars *ngFor="let c of cars" [CarName] = "c.name" [CarImg]="c.imgUrl" [CarPrice]="c.price" ></app-get-cars>
+    <br>
+    <app-add-car></app-add-car>
+</div>
